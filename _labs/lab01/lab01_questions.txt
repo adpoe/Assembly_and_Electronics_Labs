@@ -1,0 +1,54 @@
+CS 0447(B) Spring 2015
+Lab 1 Part B
+****LAB ASSIGNMENT FOR:   ANTHONY POERIO (adp59@pitt.edu)****
+
+Assemble your program again (you need to assemble it again to be able to run it again).
+Step through your program's instructions one-by-one with the "Step" tool (F7).
+As each instruction executes, notice how the values of registers update in the "Registers" pane.
+
+Answer the following questions by listing your answers in the space provided after each question.
+
+----------
+
+1. Before the first instruction is executed, what is the value of the program counter register, in hexadecimal?
+   (The program counter is the register labeled "pc".)
+
+The counter says:  0x00400000
+For the hexadecimal value, we just remove the 0x. 
+Therefore, the hexadecimal number is: 00400000
+
+
+2. After the FIRST instruction is executed, what are the values of the program counter and $t9, in hexadecimal?
+
+value of pc:  00400004
+value of $t9:  00000000
+
+
+
+3. After the SECOND instruction is executed, what are the values of the program counter and $t9?
+
+value of pc:  00400008
+value of $t9:  000000b3
+
+
+
+4. After the THIRD instruction is executed, what are the values of the program counter and $t9?
+
+value of pc: 0040000c
+value of $t9:  ffffff8e
+
+
+
+5. After the FOURTH instruction is executed, what are the values of the program counter and $t9?
+
+value of pc:  00400010
+value of $t9:  000001bf
+
+
+
+
+6. What base 10 or decimal number is 0x000001bf?
+
+000001bf = (15 * 16^0) + (11 * 16^1) + (1 * 16^2)
+         = (15) + (176) + (267)
+         = 447
